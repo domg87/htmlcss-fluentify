@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* testata */
 header{
   height: 300px;
   background-color: #0C325A;
@@ -28,6 +28,12 @@ header{
   float: left;
   margin-top: 32px;
   margin-left: 50px;
+}
+
+.header-top::after{
+  content: "";
+  display: block;
+  clear: both;
 }
 .header-top li{
   list-style: none;
@@ -54,4 +60,23 @@ li a{
 .nav-right .menu-right .border-green {
   background-color: #7CBB02;
   padding: 2px;
+}
+
+.banner{
+  margin: 0px 50px;
+}
+
+.banner.slogan{
+  font-size: 50px;
+}
+
+.background-header{
+  width: 50%;
+}
+
+/* /testata */
+
+.layout-center{
+  height: 90px;
+  background-color: lightgray;
 }
