@@ -3,3 +3,55 @@
   margin: 0;
   padding: 0;
 }
+
+header{
+  height: 300px;
+  background-color: #0C325A;
+}
+
+.header-top{
+  margin: 0px 50px;
+}
+
+.nav-logo{
+  float: left;
+  margin-top: 15px;
+}
+.nav-left{
+  float: left;
+  margin-top: 35px;
+  margin-left: 15px;
+
+}
+
+.nav-right{
+  float: left;
+  margin-top: 32px;
+  margin-left: 50px;
+}
+.header-top li{
+  list-style: none;
+  color: #fff;
+
+}
+.menu-right, .menu-left, li {
+  display: inline-block;
+}
+li a{
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 12px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.nav-right .menu-right .border {
+  border: 1px solid #fff;
+  padding: 2px;
+}
+.nav-right .menu-right .border-green {
+  background-color: #7CBB02;
+  padding: 2px;
+}
